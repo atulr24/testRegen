@@ -1,0 +1,104 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2026-05-28T10:29:19.951Z",
+  "updatedAt": "2026-05-28T10:29:58.030079Z",
+  "isDeleted": false,
+  "testedAt": "2026-05-28T10:29:58.029Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "b3a125b6-0c84-40fe-aeb7-13e5e3a150af",
+  "version": "draft",
+  "name": "sda",
+  "commitId": "commit-868988bd-6ca0-4b60-a71b-28443400952d",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2026-05-28 10:29:19",
+   "timeStamp": "2026-05-28T10:29:19.951462554Z"
+  },
+  "fields": {
+   "Bday": {
+ "ColumnName": "Bday",
+ "DataType": "dateTime",
+ "Order": 2,
+ "ExecutedValue": "1996-04-15T00:00:00Z"
+},
+   "age": {
+ "ColumnName": "age",
+ "DataType": "numeric",
+ "Order": 3,
+ "ExecutedValue": 31
+},
+   "id": {
+ "ColumnName": "id",
+ "DataType": "numeric",
+ "Order": 4,
+ "ExecutedValue": 1234
+},
+   "isTrue": {
+ "ColumnName": "isTrue",
+ "DataType": "boolean",
+ "Order": 5,
+ "ExecutedValue": true
+},
+   "metadata": {
+ "ColumnName": "metadata",
+ "DataType": "json",
+ "Order": 6,
+ "ExecutedValue": {
+  "name": "Raizada"
+ }
+},
+   "name": {
+ "ColumnName": "name",
+ "DataType": "string",
+ "Order": 7,
+ "ExecutedValue": "Ravi Kumar"
+},
+   "scores": {
+ "ColumnName": "scores",
+ "DataType": "string",
+ "Order": 8,
+ "ExecutedValue": "{85,92,78}"
+},
+   "tags": {
+ "ColumnName": "tags",
+ "DataType": "string",
+ "Order": 1,
+ "ExecutedValue": "{cricket,travel}"
+}
+  },
+  "description": "",
+  "query": "select * from dummy_data1;",
+  "params": {
+   
+  },
+  "connectorId": "e4446105-2f7d-41a7-86c3-dccbef4a39ea",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "us"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-05-28T10:29:19.95701Z",
+   "updatedAt": "2026-05-28T10:29:26.99639Z",
+   "entityCommitId": "commit-868988bd-6ca0-4b60-a71b-28443400952d",
+   "entityType": "dataSet",
+   "entityId": "b3a125b6-0c84-40fe-aeb7-13e5e3a150af",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "e4446105-2f7d-41a7-86c3-dccbef4a39ea",
+   "dependencyVersion": "live"
+  }
+ ]
+}

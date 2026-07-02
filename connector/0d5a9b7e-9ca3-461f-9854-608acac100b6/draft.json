@@ -1,0 +1,16 @@
+{
+ "entityType": "connector",
+ "category": "snowflake",
+ "data": {
+  "createdAt": "2026-05-28T09:59:50.603Z",
+  "updatedAt": "2026-05-28T10:00:38.693746Z",
+  "isDeleted": false,
+  "entityId": "0d5a9b7e-9ca3-461f-9854-608acac100b6",
+  "name": "snowFlaje",
+  "isDemo": false,
+  "category": "database",
+  "isSource": true,
+  "isAction": true,
+  "isTrigger": true
+ }
+}

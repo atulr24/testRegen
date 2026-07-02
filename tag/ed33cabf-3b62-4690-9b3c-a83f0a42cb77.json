@@ -1,0 +1,12 @@
+{
+ "entityType": "tag",
+ "data": {
+  "createdAt": "2026-05-22T09:09:03.462Z",
+  "updatedAt": "2026-05-22T09:09:03.462Z",
+  "isDeleted": false,
+  "entityId": "ed33cabf-3b62-4690-9b3c-a83f0a42cb77",
+  "name": "das",
+  "color": "#D3C0FF",
+  "type": "Sd"
+ }
+}

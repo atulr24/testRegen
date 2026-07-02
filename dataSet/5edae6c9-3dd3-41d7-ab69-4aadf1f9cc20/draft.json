@@ -1,0 +1,133 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2026-05-28T10:00:49.257Z",
+  "updatedAt": "2026-05-28T10:01:12.280206Z",
+  "isDeleted": false,
+  "testedAt": "2026-05-28T10:01:12.279Z",
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "entityId": "5edae6c9-3dd3-41d7-ab69-4aadf1f9cc20",
+  "version": "draft",
+  "name": "dfs",
+  "commitId": "commit-154daf15-7b70-4778-8aca-7226095573af",
+  "status": "tested",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2026-05-28 10:00:49",
+   "timeStamp": "2026-05-28T10:00:49.257713145Z"
+  },
+  "fields": {
+   "BOOL_COL": {
+ "ColumnName": "BOOL_COL",
+ "DataType": "boolean",
+ "Order": 8,
+ "ExecutedValue": true
+},
+   "DATETIME_COL": {
+ "ColumnName": "DATETIME_COL",
+ "DataType": "dateTime",
+ "Order": 9,
+ "ExecutedValue": "2026-05-20T14:30:00Z"
+},
+   "DATE_COL": {
+ "ColumnName": "DATE_COL",
+ "DataType": "dateTime",
+ "Order": 10,
+ "ExecutedValue": "2026-05-20T00:00:00Z"
+},
+   "DECIMAL_COL": {
+ "ColumnName": "DECIMAL_COL",
+ "DataType": "numeric",
+ "Order": 11,
+ "ExecutedValue": 1234.56
+},
+   "FLOAT_COL": {
+ "ColumnName": "FLOAT_COL",
+ "DataType": "numeric",
+ "Order": 1,
+ "ExecutedValue": 3.14159
+},
+   "ID": {
+ "ColumnName": "ID",
+ "DataType": "numeric",
+ "Order": 2,
+ "ExecutedValue": 1
+},
+   "INT_COL": {
+ "ColumnName": "INT_COL",
+ "DataType": "numeric",
+ "Order": 3,
+ "ExecutedValue": 42
+},
+   "JSON_COL": {
+ "ColumnName": "JSON_COL",
+ "DataType": "string",
+ "Order": 4,
+ "ExecutedValue": "{\n  \"active\": true,\n  \"age\": 30,\n  \"name\": \"Alice\"\n}"
+},
+   "LIST_COL": {
+ "ColumnName": "LIST_COL",
+ "DataType": "list",
+ "Order": 5,
+ "ExecutedValue": [
+  "apple",
+  "banana",
+  "cherry"
+ ]
+},
+   "OBJECT_COL": {
+ "ColumnName": "OBJECT_COL",
+ "DataType": "json",
+ "Order": 6,
+ "ExecutedValue": {
+  "city": "Mumbai",
+  "pincode": 400001
+ }
+},
+   "STR_COL": {
+ "ColumnName": "STR_COL",
+ "DataType": "string",
+ "Order": 12,
+ "ExecutedValue": "hello world"
+},
+   "STR_UNLIMITED": {
+ "ColumnName": "STR_UNLIMITED",
+ "DataType": "string",
+ "Order": 7,
+ "ExecutedValue": "a longer string value"
+}
+  },
+  "description": "",
+  "query": "select * from PUBLIC.ALL_DATATYPES;",
+  "params": {
+   
+  },
+  "connectorId": "0d5a9b7e-9ca3-461f-9854-608acac100b6",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 1000,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "us"
+  }
+ },
+ "dependencies": [
+  {
+   "isDeleted": false,
+   "createdAt": "2026-05-28T10:00:49.265507Z",
+   "updatedAt": "2026-05-28T10:01:09.300732Z",
+   "entityCommitId": "commit-154daf15-7b70-4778-8aca-7226095573af",
+   "entityType": "dataSet",
+   "entityId": "5edae6c9-3dd3-41d7-ab69-4aadf1f9cc20",
+   "entityVersion": "draft",
+   "entityNodeId": "connector",
+   "dependencyType": "connector",
+   "dependencyId": "0d5a9b7e-9ca3-461f-9854-608acac100b6",
+   "dependencyVersion": "live"
+  }
+ ]
+}
